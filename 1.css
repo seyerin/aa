@@ -1,0 +1,5 @@
+.hidden{
+  display: none;
+  /*visibility: hidden; 과 display: none;의 차이점 
+    visibility는 잡아둔 공간은 그대로 두고 개체만 사라지는거고 display는 잡아둔 공간과 함꼐 사라짐*/  
+}
