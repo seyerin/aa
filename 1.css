@@ -236,7 +236,7 @@ top: 8vh;
   width: 55vw;
   height: 18vh;
   position: relative;
-  top: 65px;
+  top: 45px;
   font-size: 17px;
 }
 li{
@@ -255,6 +255,6 @@ li{
   font-size: 15px;
   line-height: 20px;
   position: relative;
-  top: -50px;
+  top: 15vh;
 }
 }
