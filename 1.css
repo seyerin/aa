@@ -251,11 +251,11 @@ li{
   font-size: 15px;
 }
 #quote{
-  margin-top: 20px;
+  margin-top: 30px;
   width: 80vw;
-  height: 5vh;
+  height: 10vh;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 20px;
   position: relative;
   top: 10vh;
 }
