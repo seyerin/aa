@@ -197,10 +197,14 @@ li{
 position: relative;
 top: 8vh;
 }
+#clock, #weather{
+  position: relative;
+  right: 55px;
+  bottom: 130px;
+}
 #clock{
   width: 65vw;
   height: 7vh;
-  margin-bottom: 10px;
   font-size: 50px;
   text-align: center;
 }
@@ -218,15 +222,16 @@ top: 8vh;
   font-size: 17px;
 }
 #greeting{
-  margin: 10px 0 10px 0;
+  margin: 20px 0 20px 0;
   width: 65vw;
   height: 5vh;
   font-size: 30px;
   text-align: center;
 }
 .list-box{
+  margin: 0px 0 10px 0;
   width: 55vw;
-  height: 20vh;
+  height: 30vh;
   position: relative;
   top: 70px;
   font-size: 17px;
