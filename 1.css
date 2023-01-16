@@ -233,10 +233,11 @@ top: 8vh;
   text-align: center;
 }
 .list-box{
+  margin-bottom: 10px;
   width: 55vw;
   height: 18vh;
   position: relative;
-  top: 60px;
+  top: 55px;
   font-size: 17px;
 }
 li{
