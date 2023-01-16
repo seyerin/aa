@@ -218,12 +218,12 @@ top: 8vh;
 .name{
   width: 40vw;
   height: 4vh;
-  font-size: 17px;
+  font-size: 15px;
 }
 .login-button{
   width: 25vw;
   height: 4vh;
-  font-size: 17px;
+  font-size: 15px;
 }
 #greeting{
   margin-bottom: 10px;
@@ -236,7 +236,7 @@ top: 8vh;
   width: 55vw;
   height: 18vh;
   position: relative;
-  top: 45px;
+  top: 25px;
   font-size: 17px;
 }
 li{
@@ -255,6 +255,6 @@ li{
   font-size: 15px;
   line-height: 20px;
   position: relative;
-  top: 15vh;
+  top: 150px;
 }
 }
