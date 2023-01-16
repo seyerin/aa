@@ -209,7 +209,7 @@ top: 8vh;
   text-align: center;
 }
 .login-form{
-  margin: 10px 0 10px 0;
+  margin: -20px 0 0px 0;
 }
 .name{
   width: 40vw;
@@ -222,16 +222,16 @@ top: 8vh;
   font-size: 17px;
 }
 #greeting{
-  margin: 20px 0 20px 0;
+  margin: -20px 0 10px 0;
   width: 65vw;
   height: 5vh;
   font-size: 30px;
   text-align: center;
 }
 .list-box{
-  margin: 0px 0 10px 0;
+  margin: 10px 0 10px 0;
   width: 55vw;
-  height: 30vh;
+  height: 18vh;
   position: relative;
   top: 70px;
   font-size: 17px;
@@ -252,6 +252,6 @@ li{
   font-size: 15px;
   line-height: 20px;
   position: relative;
-  top: 13vh;
+  top: 10vh;
 }
 }
