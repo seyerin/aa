@@ -59,17 +59,21 @@ body{
   background-color: whitesmoke;
 }
 #greeting{
-  margin: 10px 0 0px 0;
+  width: 50vw;
+  height: 10vh;
   font-size: 40px;
+  text-align: center;
   text-shadow: 0px 5px 5px black;
 }
 #clock{
-  margin: 0px 0 25px 0;
+  width: 50vw;
+  height: 15vh;
   font-size: 80px;
+  text-align: center;
   text-shadow: 0px 5px 5px black;
 }
 #todo{
-  margin: 25px 0 0 0; 
+  margin: 15px 0 0 0; 
 }
 #todo input{ 
   padding: 5px 5px 5px 5px;
@@ -82,7 +86,6 @@ body{
   box-shadow: 0 5px 5px black;
 }
 .list-box{
-  margin: 0px 0px 55px 10px;
   width: 95vw;
   height: 45vh;
   display: flex;
@@ -137,11 +140,16 @@ li{
   position: relative;
   top: 5vh;
   }
-  #clock{
-    margin: 0 0 -20px 0;
+  #weather{
+    margin-bottom: -35px;
+    font-size: 30px;
   }
-  .login-form{
-    margin: 0 0 -30px 0;
+  #clock{
+    width: 50vw;
+    height: 13vh;
+    position: relative;
+    top: 20px;
+    font-size: 100px;
   }
   .name{
     width: 40vw;
@@ -152,13 +160,12 @@ li{
     height: 6vh;
   }
   #greeting{
-    margin: 0 0 20px 0;
     width: 50vw;
-    height: 5vh;
+    height: 8vh;
     text-align: center;
   }
   .list-box{
-    margin: 10px 0 0px 0;
+    margin: -25px 0 0 0;
     width: 40vw;
     height: 25vh;
   }
@@ -167,6 +174,7 @@ li{
     height: 3vh;
   }
   #todo input{
+    margin-top: -30px;
     width: 50vw;
     height: 5vh;
     font-size: 20px;
@@ -187,49 +195,58 @@ li{
   display: flex;
   justify-content: center;
 position: relative;
-top: 0vh;
+top: 8vh;
 }
 #clock{
-  margin: 0 0 -20px 0;
+  width: 65vw;
+  height: 7vh;
+  margin: 0 0 0px 0;
   font-size: 50px;
+  text-align: center;
 }
 .login-form{
-  margin: 0 0 -40px 0;
+  margin: -30px 0 -40px 0;
 }
 .name{
   width: 40vw;
   height: 4vh;
+  font-size: 17px;
 }
 .login-button{
   width: 25vw;
   height: 4vh;
+  font-size: 17px;
 }
 #greeting{
-  margin: 0 0 20px 0;
-  width: 50vw;
+  margin: 0 0 0px 0;
+  width: 65vw;
   height: 5vh;
+  font-size: 30px;
   text-align: center;
 }
 .list-box{
-  margin: 20px 0 0px 0;
-  width: 45vw;
+  width: 55vw;
   height: 25vh;
+  position: relative;
+  top: 100px;
+  font-size: 17px;
 }
 li{
-  width: 42vw;
+  width: 50vw;
   height: 2vh;
+  line-height: 2vh;
 }
 #todo input{
-  width: 50vw;
+  width: 60vw;
   height: 4vh;
-  font-size: 20px;
+  font-size: 15px;
 }
 #quote{
   width: 80vw;
   height: 5vh;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 20px;
   position: relative;
-  top: 3vh;
+  top: 13vh;
 }
 }
