@@ -188,7 +188,7 @@ li{
     top: 1vh;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 400px) {
   .box{
   width: 50vw;
   height: 30vh;
