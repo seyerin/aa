@@ -180,3 +180,56 @@ li{
     top: 1vh;
   }
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .box{
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+position: relative;
+top: 0vh;
+}
+#clock{
+  margin: 0 0 -20px 0;
+  font-size: 50px;
+}
+.login-form{
+  margin: 0 0 -40px 0;
+}
+.name{
+  width: 40vw;
+  height: 4vh;
+}
+.login-button{
+  width: 25vw;
+  height: 4vh;
+}
+#greeting{
+  margin: 0 0 20px 0;
+  width: 50vw;
+  height: 5vh;
+  text-align: center;
+}
+.list-box{
+  margin: 20px 0 0px 0;
+  width: 45vw;
+  height: 25vh;
+}
+li{
+  width: 42vw;
+  height: 2vh;
+}
+#todo input{
+  width: 50vw;
+  height: 4vh;
+  font-size: 20px;
+}
+#quote{
+  width: 80vw;
+  height: 5vh;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  top: 3vh;
+}
+}
