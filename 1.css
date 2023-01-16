@@ -213,7 +213,7 @@ top: 8vh;
 }
 #greeting, #todo, .login-form{
   position: relative;
-  bottom: 70px;
+  bottom: 0px;
 }
 .name{
   width: 40vw;
