@@ -233,7 +233,6 @@ top: 8vh;
   text-align: center;
 }
 .list-box{
-  margin-bottom: 30px;
   width: 55vw;
   height: 18vh;
   position: relative;
@@ -251,12 +250,11 @@ li{
   font-size: 15px;
 }
 #quote{
-  margin-top: 30px;
   width: 80vw;
   height: 10vh;
   font-size: 15px;
   line-height: 20px;
   position: relative;
-  top: 12vh;
+  top: 15vh;
 }
 }
