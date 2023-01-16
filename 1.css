@@ -197,6 +197,9 @@ li{
 position: relative;
 top: 8vh;
 }
+#weather{
+  font-size: 20px;
+}
 #clock, #weather{
   position: relative;
   right: 55px;
@@ -208,8 +211,9 @@ top: 8vh;
   font-size: 50px;
   text-align: center;
 }
-.login-form{
-  margin: -20px 0 0px 0;
+#greeting, #todo, .login-form{
+  position: relative;
+  bottom: 50px;
 }
 .name{
   width: 40vw;
@@ -222,18 +226,17 @@ top: 8vh;
   font-size: 17px;
 }
 #greeting{
-  margin: -20px 0 10px 0;
-  width: 65vw;
+  margin-bottom: 10px;
+  width: 70vw;
   height: 5vh;
   font-size: 30px;
   text-align: center;
 }
 .list-box{
-  margin: 10px 0 10px 0;
   width: 55vw;
   height: 18vh;
   position: relative;
-  top: 70px;
+  top: 60px;
   font-size: 17px;
 }
 li{
@@ -247,6 +250,7 @@ li{
   font-size: 15px;
 }
 #quote{
+  margin-top: 20px;
   width: 80vw;
   height: 5vh;
   font-size: 15px;
